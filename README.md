@@ -1,4 +1,4 @@
-### This repository is to provide code and data 
+# This repository is to provide code and data 
 
 * * *
 
@@ -6,12 +6,12 @@ Supplementry data \- https://mia-fl.github.io/MIA-FL/
 
 * * *
 
-#### Code Handbook
+### Code Handbook
 
 * * *
 
 
-##### File structures
+#### File structures
 
 Backbone files
 
@@ -65,20 +65,20 @@ Key constants
 1.  DEFAULT\_SET
     *   The chosen dataset to run experiments
     *   Available values
-        1.  PURCHASE100
-        2.  CIFAR\_10
-        3.  LOCATION30
-        4.  TEXAS100
-        5.  GNOME
+        a.  PURCHASE100
+        b.  CIFAR\_10
+        c.  LOCATION30
+        d.  TEXAS100
+        e.  GNOME
 2.  DEFAULT\_AGR
     *   The chosen robust aggregation mechanisms to defend malicious updates
     *   Available values
-        1.  TRMEAN = "Trimmed Mean"
-        2.  KRUM = "Krum"
-        3.  MULTI\_KRUM = "Multi-Krum"
-        4.  MEDIAN = "Median"
-        5.  FANG = "Fang"
-        6.  None (Please use the python reserved None value)
+        a.  TRMEAN = "Trimmed Mean"
+        b.  KRUM = "Krum"
+        c.  MULTI\_KRUM = "Multi-Krum"
+        d.  MEDIAN = "Median"
+        e.  FANG = "Fang"
+        f.  None (Please use the python reserved None value)
 3.  NUMBER\_OF\_PARTICIPANTS: The number of participants involved in federated learning process
 4.  NUMBER\_OF\_ADVERSARY: The number of adversary involved in attack experiments, the adversary is in a DISJOINT set with participants
 5.  MAX\_EPOCH: The overall rounds of federated training for the current experiment

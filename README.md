@@ -1,6 +1,15 @@
 ### This repository is to provide code and data 
 
+* * *
+
+Supplementry data \- https://mia-fl.github.io/MIA-FL/
+
+* * *
+
 #### Code Handbook
+
+* * *
+
 
 ##### File structures
 
@@ -47,7 +56,7 @@ Setup
 
 The dataset\_purchase.tgz need to be extracted as 'dataset\_purchase' before running
 
-  
+* * *
 
 ##### Constant List
 

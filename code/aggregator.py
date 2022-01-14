@@ -161,7 +161,7 @@ class RobustMechanism:
 
     def multi_krum(self, all_updates, n_attackers):
         """
-        The multi-krum method copied from Mengyap's update
+        The multi-krum method
         """
         multi_k =  (self.type == MULTI_KRUM)
         candidates = []
